@@ -19,6 +19,13 @@ export default function Home() {
             key={i}
             className="border p-4 rounded-lg shadow hover:shadow-md transition"
           >
+            {product.images?.[0]?.url && (
+              <img
+                src={`http://localhost:1337${product.images[0].url}`}
+                alt={product.name}
+                className="mb-4 w-full h-48 object-cover rounded"
+              />
+            )}
             <h2 className="text-xl font-semibold">{product.name}</h2>
             <p className="text-gray-600">${product.price}</p>
             <p className="text-sm text-gray-500">

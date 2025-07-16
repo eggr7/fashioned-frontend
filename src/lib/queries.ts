@@ -5,7 +5,6 @@ export const GET_PRODUCTS = gql`
   query {
     products {
       name
-      slug
       price
       category {
         name
@@ -16,6 +15,9 @@ export const GET_PRODUCTS = gql`
       colors {
         name
         hexCode
+      }
+      images {
+        url
       }
     }
   }
