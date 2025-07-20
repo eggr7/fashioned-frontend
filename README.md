@@ -1,10 +1,18 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## FashionED Landing Page
+
+This project includes a demo home page for the **FashionED** e-commerce brand. It features a starfield background and a dark mode toggle. Use the navigation links or smooth scrolling buttons to jump between sections.
+
 ## Getting Started
 
-First, run the development server:
+First, install dependencies and run the development server:
 
 ```bash
+# install dependencies
+npm install
+
+# then start the dev server
 npm run dev
 # or
 yarn dev
@@ -15,6 +23,8 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+The starfield effect is drawn on a canvas behind the content. Colors adjust when the theme changes via `next-themes`. Navigation links and buttons simply use anchors so scrolling is handled smoothly by the browser.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
