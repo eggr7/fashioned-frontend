@@ -6,12 +6,14 @@ export default function Hero() {
     >
       <h1 className="text-5xl md:text-7xl font-bold italic mb-8">FashionED</h1>
       <div className="space-x-4">
+        <a href="#products" className="px-6 py-3 bg-indigo-600 text-white rounded hover:shadow-lg hover:scale-105 transition">
         <a
           href="#products"
           className="px-6 py-3 bg-indigo-600 text-white rounded border border-indigo-700 shadow-md font-medium hover:shadow-lg hover:scale-105 transition"
         >
           Browse Products
         </a>
+        <a href="#about" className="px-6 py-3 bg-gray-200 dark:bg-gray-700 dark:text-white rounded hover:shadow-lg hover:scale-105 transition">
         <a
           href="#about"
           className="px-6 py-3 bg-gray-200 dark:bg-gray-700 dark:text-white rounded border border-gray-300 dark:border-gray-600 shadow-md font-medium hover:shadow-lg hover:scale-105 transition"
